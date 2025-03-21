@@ -1,7 +1,8 @@
 .. runrecord:: /basics/_examples/DL-101-133-102
   :language: console
-  :workdir: dl-101/DataLad-101/midterm_project
+  :workdir: dl-101/DataLad-101
 
+  $ cd midterm_project
   $ cat .datalad/config
 
 This recorded the image's origin on Singularity-Hub, the location of the
