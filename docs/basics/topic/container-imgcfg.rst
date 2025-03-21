@@ -26,7 +26,7 @@ Here is an example call format that bind-mounts the current working directory (a
 
 .. code-block:: console
 
-  $ datalad containers-add --call-fmt 'singularity exec -B {{pwd}} --cleanenv {img} {cmd}'
+  $ datalad containers-add --call-fmt 'singularity exec -B {{pwd}} --cleanenv {img} {cmd}'  --update midterm-software
 
 Note that the image is saved under ``.datalad/environments`` and the
 configuration is done in ``.datalad/config`` -- as these files are version
